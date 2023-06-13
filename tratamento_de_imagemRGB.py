@@ -16,7 +16,7 @@ img2_rgb = cv2.imread(IMAGE_PATH_TWO)
 fig1, axs1 = plt.subplots(2, 2, figsize=(10, 10))
 
 # Exibição da primeira imagem RGB sem tratamento no subplot (0, 0):
-axs1[0, 0].imshow(imSg1_rgb)
+axs1[0, 0].imshow(img1_rgb)
 axs1[0, 0].set_title('Underexposure - RGB sem tratamento')
 plt.subplot(2, 2, 1)
 plt.imshow(img1_rgb)
